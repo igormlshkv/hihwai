@@ -5,14 +5,14 @@
 }
 html,
 body {
-    animation:transition 1s;
+    animation: transition 1s;
     margin-left: auto;
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
     width: 100%;
-    height:100%;
-    overflow:hidden;
+    height: 100%;
+    overflow: hidden;
 }
 #page {
     margin-left: auto;
@@ -21,11 +21,11 @@ body {
     margin-bottom: 0px;
     background-color: whitesmoke;
     width: 100%;
-    padding:0px;
-    height:100%;
+    padding: 0px;
+    height: 100%;
 }
 header {
-    overflow:hidden;
+    overflow: hidden;
     width: 100%;
     background-color: hsl(47, 50%, 46%);
     height: 8%;
@@ -38,7 +38,7 @@ header {
 }
 
 nav {
-    height:87%;
+    height: 87%;
     float: left;
     background-color: hsl(210, 50%, 30%);
     width: 15%;
@@ -52,9 +52,9 @@ nav {
 }
 
 .article {
-    height:87%;
-    overflow-y:scroll;  
-    animation:transition 2ss;
+    height: 87%;
+    overflow-y: scroll;
+    animation: transition 2ss;
     position: relative;
     float: left;
     width: 85%;
@@ -96,123 +96,198 @@ nav a:hover {
     color: hsl(0, 85%, 50%);
 }
 
-
 @keyframes transition {
-    from{
-        opacity:0;
-        transform:rotateX(-10deg);
-
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
     }
-    to{
-        opacity:1;
-        transform:rotateX(0);
-
+    to {
+        opacity: 1;
+        transform: rotateX(0);
     }
-    
 }
-.imgText{
-    width:100%;
-    padding:1%;
-    height:fit-content;
-    margin-bottom:0px;
+.imgText {
+    height: fit-content;
+    width: 100%;
+    padding: 1%;
+    height: fit-content;
+    margin-bottom: 0px;
 }
-.articleIMGLeft{ 
-    margin-right:30px;
-    margin-bottom:10px;
-    width:200px;
-    height:300px;
-    float:left;
-    border-radius:20%;
-    box-shadow: rgba(98, 38, 43, 0.4) 5px 5px, rgba(98, 38, 43, 0.3) 10px 10px, rgba(98, 38, 43, 0.2) 15px 15px, rgba(238, 134, 143, 0.1) 20px 20px, rgba(98, 38, 43, 0.05) 25px 25px;
-    }
-.imgText h1{
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-style:italic;  
-    margin-bottom:5px;
-    margin-top:0px;
-    text-align:center;
-    font-size:50px;
-
+.articleIMGLeft {
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    border-radius: 20%;
 }
-.imgText p{
-    margin-left:10px;
-    text-indent:20px;
-    font-family:Arial, Helvetica, sans-serif;
-    
+.imgText h1 {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-style: italic;
+    margin-bottom: 5px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 8px -9px 11px rgba(66, 68, 90, 1), -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
 }
-.articleBilans{
-    margin-top:0px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height:342px;
+.imgText p {
+    margin-left: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.articleTable{
-    border-collapse:inherit;
-    border-width:1px;   
-    border-spacing:0px;
-    width:600px;
-    height:342px;
-    margin-left:10px;
-    float:left;
-    margin-bottom:30px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+.articleBilans {
+    margin-top: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    height: 342px;
 }
-.articleTable thead th{
+.articleTable {
+    border-collapse: inherit;
+    border-width: 1px;
+    border-spacing: 0px;
+    width: 600px;
+    height: 342px;
+    margin-left: 190px;
+    float: left;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.articleTable thead th {
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
-.articleTable thead tr{
-    background-color:rgb(143, 54, 54);
-}
-.articleTable tbody td{
-    font-style:italic;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align:center;
+.articleTable tbody td {
+    font-style: italic;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    text-align: center;
     border: 1px solid rgb(0, 0, 0);
-    padding:0px;
+    padding: 0px;
 }
-.articleTable tbody tr{
-    background-color:rgb(196, 180, 180);
-    border:1px solid rgb(0,0,0);
+.articleTable tbody tr {
+    background-color: rgb(196, 180, 180);
+    border: 1px solid rgb(0, 0, 0);
 }
-.articleTable tbody tr:nth-child(even){
-    background-color:gray;
+.articleTable tbody tr:nth-child(even) {
+    background-color: gray;
 }
-.articleTable tbody tr:hover{
-    background-color:rgb(143, 54, 54);
-}
-.articleBilans video{
-    object-fit:fill;
-    background-color:black;
-    width:608px;
-    height:342px;
-    margin-top:0px;
-    margin-left:20px;
-    float:left;
-    border:black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px 
-}
-
-
-.articleBilans2{
-    clear:both;
-    margin-top:0px;
-    margin-bottom:30%;
+.articleBilans2 video {
+    object-fit: fill;
+    background-color: black;
+    width: 608px;
+    height: 342px;
+    margin-top: 0px;
+    margin-left: 20px;
+    float: left;
+    border: black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.article form{
-    text-align:center;
-    margin-top:10%  ;
+.articleBilans2 {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 30%;
 }
-.articleBilans h2{
-    text-align:center;
-    margin-top:0px;
+
+.article form {
+    text-align: center;
+    margin-top: 10%;
 }
-#goTop{
-    font-style:oblique;
-    margin-left:93%;
-    font-size:15px;
+.articleBilans h2 {
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-style: oblique;
+    font-size: 30px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    text-shadow: 8px -9px 11px rgba(66, 68, 90, 1), -1px 0 black, 0 1px black,
+        1px 0 black, 0 -1px black;
+}
+#goTop {
+    clear: both;
+    font-style: oblique;
+    margin-left: 95%;
+    font-size: 20px;
     text-shadow: 8px 9px 6px rgba(66, 68, 90, 1);
 }
-#goTop:hover{
-    cursor:pointer;
+#goTop:hover {
+    cursor: pointer;
+}
+.blueBoxShadow {
+    box-shadow: rgba(53, 83, 138, 1) 5px 5px, rgba(53, 83, 138, 0.8) 10px 10px,
+        rgba(53, 83, 138, 0.5) 15px 15px, rgba(53, 83, 138, 0.4) 20px 20px,
+        rgba(53, 83, 138, 0.2) 25px 25px;
+}
+.redBoxShadow {
+    box-shadow: rgba(158, 46, 51, 1) 5px 5px, rgba(158, 46, 51, 0.8) 10px 10px,
+        rgba(158, 46, 51, 0.5) 15px 15px, rgba(158, 46, 51, 0.4) 20px 20px,
+        rgba(158, 46, 51, 0.2) 25px 25px;
+}
+.yellowBoxShadow {
+    box-shadow: rgba(223, 236, 104, 1) 5px 5px,
+        rgba(223, 236, 104, 0.8) 10px 10px, rgba(223, 236, 104, 0.5) 15px 15px,
+        rgba(223, 236, 104, 0.4) 20px 20px, rgba(223, 236, 104, 0.2) 25px 25px;
+}
+.silverBoxShadow {
+    box-shadow: rgb(155, 152, 152) 5px 5px, rgb(155, 152, 152, 0.8) 10px 10px,
+        rgb(155, 152, 152, 0.5) 15px 15px, rgb(155, 152, 152, 0.4) 20px 20px,
+        rgb(155, 152, 152, 0.2) 25px 25px;
+}
+
+.blueTable thead tr {
+    background-color: rgba(53, 83, 138, 1);
+}
+.blueTable tbody tr:hover {
+    background-color: rgba(53, 83, 138, 1);
+}
+.redTable thead tr {
+    background-color: rgba(158, 46, 51, 1);
+}
+.redTable tbody tr:hover {
+    background-color: rgba(158, 46, 51, 1);
+}
+.yellowTable thead tr {
+    background-color: rgba(223, 236, 104, 1);
+}
+.yellowTable tbody tr:hover {
+    background-color: rgba(223, 236, 104, 1);
+}
+.silverTable thead tr {
+    background-color: rgb(192, 192, 192);
+}
+.silverTable tbody tr:hover {
+    background-color: rgb(192, 192, 192);
+}
+.blueText {
+    color: rgba(53, 83, 138, 1);
+}
+.redText {
+    color: rgba(158, 46, 51, 1);
+}
+.yellowText {
+    color: rgba(223, 236, 104, 1);
+}
+.silverText {
+    color: rgb(192, 192, 192);
+}
+
+.achievements {
+    max-height: 342px;
+    font-size: 18px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    float: left;
+    width: 628px;
+}
+.achievements li:hover {
+    color: red;
+}
+.achievements li {
+    margin-top: 2px;
+    font-size: 16px;
 }
