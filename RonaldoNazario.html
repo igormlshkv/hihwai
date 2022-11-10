@@ -11,6 +11,7 @@
   <body>
     <div id="page">
       <header>
+        <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
           <img onclick="DarkModeToggle()" src="img/darkmode.png" />
         </div>
@@ -236,6 +237,9 @@
           <video controls poster="img/ronaldoposter.png">
             <source src="video/Ronaldo.mp4" type="video/mp4" />
           </video>
+          <script defer>
+            document.querySelector("video").volume = 0.1;
+          </script>
           <table class="articleTable yellowTable">
             <thead>
               <tr>

@@ -1,6 +1,6 @@
 function goTop(){
-    var myDiv = document.querySelector("article");
-    myDiv.scrollTop = 0;
+    var article = document.querySelector("article");
+    article.scrollTop = 0;
 }
 
 
@@ -28,5 +28,16 @@ function DarkModeToggle(){
         LightMode();
       }
 
+}
 
+
+
+function loadArticle(articleName){     
+    let article = document.querySelector(".trescArtykulu"); 
+    document.querySelector(".tresc")?.remove();    
+    let iframe = document.createElement("iframe");     
+    iframe.setAttribute("src", `articles/${articleName}.html`);     
+    iframe.setAttribute("onload", "this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()");    
+    iframe.setAttribute("style", "display: none");    
+    article.appendChild(iframe); 
 }

@@ -24,16 +24,20 @@ body {
     height: 100vh;
 }
 header {
-    overflow: hidden;
     width: 100vw;
     background-color: hsl(47, 50%, 46%);
     height: 8vh;
     color: white;
-    display: grid;
-    place-items: center;
-    font-size: 4vw;
-    font-family: monospace;
+    text-align: center;
+    
+}
+header h1{
+    display:inline;
+    font-size: 3vw;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     font-style: italic;
+
 }
 
 nav {
@@ -51,7 +55,8 @@ nav {
 }
 
 .article {
-    overflow-y: scroll;
+    overflow-x:hidden;
+    overflow-y: auto;
     height:87%;
     animation: transition 2ss;
     position:relative;
@@ -210,6 +215,7 @@ nav a:hover {
 #goTop {
     clear: both;
     font-style: oblique;
+    margin-bottom:1vh;
     margin-left: 80vw;
     font-size: 1.5vw;
     text-shadow: 8px 9px 6px rgba(66, 68, 90, 1);
@@ -296,20 +302,17 @@ input{
     margin-bottom:2vh;
 }
 #darkmodeMenu{
-    margin-left:93%;
-    font-size:1vw;
     height:2vw;
     width:2vw;
     
 
 }
 #darkmodeMenu img{
-    margin-left:93%;
-    font-size:1vw;
+    position:absolute;
+    top: 1vw;
+    right:1vw;
     height:2vw;
     width:2vw;
-    
-
 }
 #darkmodeMenu img:hover{
     cursor:pointer;
@@ -317,7 +320,6 @@ input{
 
 }
 .darkmode{
-    animation: transition 2s;
     
     background-color: #121212ce;
     color:rgba(245, 245, 245, 0.751);
@@ -327,4 +329,51 @@ input{
 }
 .darkmode table{
     color:#fffffa;
+}
+#articleMenu{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style:oblique;
+    font-size:1.5vw;
+    margin-left:2vw;
+    margin-top:2vh;
+    background-color:rgb(182, 181, 181);
+    color:black;
+    border:0.5vw solid black;
+    height:fit-content;
+    width:23vw
+}
+#articleMenu ul li{
+    margin-top:2vh;
+   
+}
+#articleMenu ul li:hover{
+    cursor:pointer;
+   
+}
+.trescArtykulu{
+    height:70vh;
+    width:83vw;
+}
+.tresc{
+    text-indent:3vw;
+    margin-left:2vw;
+    margin-top:3vh;
+    font-size:1.2vw;
+}
+.tresc img{ 
+    margin-top:2vh;
+    height:20vh;
+    width:15vw;
+    float:right;
+    border-radius:10%;
+    margin-left:1vw;
+}
+.tresc img:hover{
+    transform: scale(1.5);
+    overflow:hidden;
+}
+.tresc .left{
+    float:left;
+    margin-right:2vw;
+    margin-left:1vw;
 }

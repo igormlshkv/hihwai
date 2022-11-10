@@ -12,6 +12,7 @@
   <body>
     <div id="page">
       <header>
+        <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
           <img onclick="DarkModeToggle()" src="img/darkmode.png" />
         </div>
@@ -127,7 +128,7 @@
             W tym samym roku trzydziestolatek został zatrzymany przez policję w
             rodzinnym mieście. Posiadał przy sobie znaczne ilości kokainy. Mimo
             że uniknął więzienia, jego życie nigdy już nie wróciło na właściwe
-            tory. Czytaj więcej:
+            tory.
           </p>
         </div>
         <div class="articleBilans">
@@ -245,6 +246,9 @@
           <video controls poster="img/maradonaposter.png">
             <source src="video/maradonagoal.mp4" type="video/mp4" />
           </video>
+          <script defer>
+            document.querySelector("video").volume = 0.1;
+          </script>
           <table class="articleTable blueTable">
             <thead>
               <tr>
@@ -297,7 +301,7 @@
             </tbody>
           </table>
         </div>
-        <p id="goTop" onclick="goTop()">Na górę</p>
+        <p id="goTop" onclick="goTop()">Do góry</p>
       </article>
 
       <footer>Igor Maliszkiewicz</footer>

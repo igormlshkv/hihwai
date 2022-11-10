@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Moje Hobby</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
@@ -11,6 +12,7 @@
   <body>
     <div id="page">
       <header>
+        <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
           <img onclick="DarkModeToggle()" src="img/darkmode.png" />
         </div>
@@ -34,7 +36,20 @@
         <a href="vote.html">Głosowanie</a>
       </nav>
       <article class="article">
-        <p id="goTop" onclick="goTop()">Na górę</p>
+        <div id="articleMenu">
+          <ul>
+            <li onclick="loadArticle('starozytny')">
+              Starożytne początki piłki nożnej
+            </li>
+            <li onclick="loadArticle('nowozytny')">Nowożytny futbol</li>
+            <li onclick="loadArticle('powstanietfa')">
+              Powstanie The Football Association
+            </li>
+            <li onclick="loadArticle('nowoczesna')">Nowoczesna piłka nożna</li>
+          </ul>
+        </div>
+        <div class="trescArtykulu"></div>
+        <p id="goTop" onclick="goTop()">Do góry</p>
       </article>
       <footer>Igor Maliszkiewicz</footer>
     </div>
