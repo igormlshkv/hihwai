@@ -10,9 +10,8 @@ body {
     margin-right: auto;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 #page {
     margin-left: auto;
@@ -20,50 +19,50 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     background-color: whitesmoke;
-    width: 100%;
+    width: 100vw;
     padding: 0px;
-    height: 100%;
+    height: 100vh;
 }
 header {
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     background-color: hsl(47, 50%, 46%);
-    height: 8%;
+    height: 8vh;
     color: white;
     display: grid;
     place-items: center;
-    font-size: 50px;
+    font-size: 4vw;
     font-family: monospace;
     font-style: italic;
 }
 
 nav {
-    height: 87%;
+    height: 87vh;
     float: left;
     background-color: hsl(210, 50%, 30%);
-    width: 15%;
-    padding-top: 1.5%;
-    padding-bottom: 5%;
-    padding-left: 1%;
+    width: 15vw;
+    padding-top: 1.5vh;
+    padding-bottom: 5vh;
+    padding-left: 1vw;
     text-align: left;
     color: whitesmoke;
-    font-size: 25px;
+    font-size: 2vw;
     font-family: "Josefin Sans", sans-serif;
 }
 
 .article {
-    height: 87%;
     overflow-y: scroll;
+    height:87%;
     animation: transition 2ss;
-    position: relative;
+    position:relative;
     float: left;
-    width: 85%;
+    width: 85vw;
     background-color: whitesmoke;
 }
 
 footer {
     clear: both;
-    height: 5%;
+    height: 5vh;
     background-color: rgb(42, 39, 39);
     text-align: center;
     color: white;
@@ -77,12 +76,12 @@ footer {
 }
 nav ul {
     margin: 0;
-    padding-inline-start: 10%;
+    padding-inline-start: 2vw;
 }
 nav ul li {
-    padding-left: 2%;
-    padding-top: 10%;
-    padding-bottom: 20%;
+    padding-left: 1vw;
+    padding-top: 4vh;
+    padding-bottom: 3vh;
     cursor: pointer;
 }
 li:hover {
@@ -107,50 +106,49 @@ nav a:hover {
     }
 }
 .imgText {
-    height: fit-content;
-    width: 100%;
-    padding: 1%;
-    height: fit-content;
+    height:fit-content;
+    width: 83vw;
+    padding:1vw;
     margin-bottom: 0px;
 }
 .articleIMGLeft {
-    margin-right: 30px;
-    margin-bottom: 30px;
-    width: 200px;
-    height: 300px;
+    margin-right: 3vw;
+    margin-bottom:2vw;
+    width: 18vw;
+    height: 50vh;
     float: left;
     border-radius: 20%;
 }
 .imgText h1 {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 4vh;
     margin-top: 0px;
     text-align: center;
-    font-size: 50px;
+    font-size: 4vw;
     text-shadow: 8px -9px 11px rgba(66, 68, 90, 1), -1px 0 black, 0 1px black,
         1px 0 black, 0 -1px black;
 }
 .imgText p {
-    margin-left: 10px;
-    text-indent: 20px;
-    font-size: 18px;
+    margin-left: 1vw;
+    text-indent: 1.5vw;
+    font-size: 1vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 .articleBilans {
-    margin-top: 0px;
+    height:50vh;
+    width:80vw;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    height: 342px;
 }
 .articleTable {
+    font-size:1vw;
     border-collapse: inherit;
-    border-width: 1px;
+    border-width: 0.3vw;
     border-spacing: 0px;
-    width: 600px;
-    height: 342px;
-    margin-left: 190px;
+    width: 35vw;
+    height: 50vh;
+    margin-left: 2vw;
     float: left;
-    margin-bottom: 30px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
         rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -177,10 +175,10 @@ nav a:hover {
 .articleBilans2 video {
     object-fit: fill;
     background-color: black;
-    width: 608px;
-    height: 342px;
+    width: 40vw;
+    height: 50vh;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left:2vw;
     float: left;
     border: black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
@@ -189,20 +187,21 @@ nav a:hover {
 }
 
 .articleBilans2 {
+    height:100vh;   
     float: left;
-    margin-top: 0px;
-    margin-bottom: 30%;
+    width:80vw;
+    margin-top:5vh;
 }
 
 .article form {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 5vh;
 }
 .articleBilans h2 {
-    margin-left: 20px;
-    margin-bottom: 5px;
+    margin-left: 1vw;
+    margin-bottom: 2vh;
     font-style: oblique;
-    font-size: 30px;
+    font-size: 2vw;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     text-shadow: 8px -9px 11px rgba(66, 68, 90, 1), -1px 0 black, 0 1px black,
@@ -211,8 +210,8 @@ nav a:hover {
 #goTop {
     clear: both;
     font-style: oblique;
-    margin-left: 95%;
-    font-size: 20px;
+    margin-left: 80vw;
+    font-size: 1.5vw;
     text-shadow: 8px 9px 6px rgba(66, 68, 90, 1);
 }
 #goTop:hover {
@@ -277,17 +276,55 @@ nav a:hover {
 }
 
 .achievements {
-    max-height: 342px;
-    font-size: 18px;
+    height: 30vh;
+    font-size: 1.5vw;
     font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
         sans-serif;
     float: left;
-    width: 628px;
+    width:40vw;
+    margin-left:2vw; 
 }
 .achievements li:hover {
     color: red;
 }
 .achievements li {
-    margin-top: 2px;
-    font-size: 16px;
+    margin-top: 1vh;
+    font-size: 1vw;
+}
+input{
+    margin-top:0.2vh;
+    margin-bottom:2vh;
+}
+#darkmodeMenu{
+    margin-left:93%;
+    font-size:1vw;
+    height:2vw;
+    width:2vw;
+    
+
+}
+#darkmodeMenu img{
+    margin-left:93%;
+    font-size:1vw;
+    height:2vw;
+    width:2vw;
+    
+
+}
+#darkmodeMenu img:hover{
+    cursor:pointer;
+    
+
+}
+.darkmode{
+    animation: transition 2s;
+    
+    background-color: #121212ce;
+    color:rgba(245, 245, 245, 0.751);
+}
+.darkmode h2{
+    color:rgb(105, 103, 103);
+}
+.darkmode table{
+    color:#fffffa;
 }

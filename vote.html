@@ -1,76 +1,102 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="script.js" defer></script>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="author" content="Igor Maliszkiewicz" />
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Igor Maliszkiewicz" />
+  </head>
 
-    <body>
-        <div id="page">
-            <header></header>
-
-            <nav>
-                <a href="index.html">Strona główna</a><br /><br />
-                <ul>
-                    <li>
-                        <a href="DiegoMaradona.html">Diego Maradona</a>
-                    </li>
-                    <li>
-                        <a href="RonaldinhoGaucho.html">Ronaldinho Gaucho</a>
-                    </li>
-                    <li>
-                        <a href="RonaldoNazario.html">Ronaldo Nazario</a>
-                    </li>
-                    <li>
-                        <a href="ZinedineZidane.html">Zinedine Zidane</a>
-                    </li>
-                </ul>
-                <a href="vote.html">Głosowanie</a>
-            </nav>
-            <article class="article">
-                <form>
-                    <label for="fname">Imię:</label><br />
-                    <input type="text" id="fname" name="fname" /><br />
-
-                    <label for="lname">Nazwisko:</label><br />
-                    <input type="text" id="lname" name="lname" /><br />
-
-                    <label for="age">Wiek:</label><br />
-                    <input type="text" id="age" name="age" /><br />
-
-                    <label for="gender">Płeć:</label><br />
-                    <input
-                        type="radio"
-                        id="kobieta"
-                        name="gender"
-                        value="Kobieta"
-                    />
-                    <label for="kobieta">Kobieta</label><br />
-                    <input
-                        type="radio"
-                        id="mezczyzna"
-                        name="gender"
-                        value="Mężczyzna"
-                    />
-                    <label for="mezczyzna">Mężczyzna</label><br />
-
-                    <label for="ligi">Ulubiona liga:</label><br />
-                    <input list="ligi" />
-
-                    <datalist id="ligi">
-                        <option value="Bundesliga"></option>
-                        <option value="Ekstraklasa"></option>
-                        <option value="Premier League"></option>
-                        <option value="La Liga"></option>
-                        <option value="Ligue 1"></option>
-                        <option value="Serie A"></option>
-                    </datalist>
-                </form>
-            </article>
-            <footer>Igor Maliszkiewicz</footer>
+  <body>
+    <div id="page">
+      <header>
+        <div id="darkmodeMenu">
+          <img onclick="DarkModeToggle()" src="img/darkmode.png" />
         </div>
-    </body>
+      </header>
+
+      <nav>
+        <a href="index.html">Strona główna</a><br /><br />
+        <ul>
+          <li>
+            <a href="DiegoMaradona.html">Diego Maradona</a>
+          </li>
+          <li>
+            <a href="RonaldinhoGaucho.html">Ronaldinho Gaucho</a>
+          </li>
+          <li>
+            <a href="RonaldoNazario.html">Ronaldo Nazario</a>
+          </li>
+          <li>
+            <a href="ZinedineZidane.html">Zinedine Zidane</a>
+          </li>
+        </ul>
+        <a href="vote.html">Głosowanie</a>
+      </nav>
+      <article class="article">
+        <form action="action.php" method="GET">
+          <label for="fname">Imię:</label><br />
+          <input type="text" id="fname" name="fname" /><br />
+
+          <label for="age">Wiek:</label><br />
+          <input type="text" id="age" name="age" /><br />
+
+          <label for="gender">Płeć:</label><br />
+          <input type="radio" id="kobieta" name="gender" value="Kobieta" />
+          <label for="kobieta">Kobieta</label><br />
+          <input type="radio" id="mezczyzna" name="gender" value="Mężczyzna" />
+          <label for="mezczyzna">Mężczyzna</label><br />
+
+          <label for="ligi">Ulubiona liga:</label><br />
+          <input list="ligi" />
+
+          <datalist id="ligi">
+            <option value="Bundesliga"></option>
+            <option value="Ekstraklasa"></option>
+            <option value="Premier League"></option>
+            <option value="La Liga"></option>
+            <option value="Ligue 1"></option>
+            <option value="Serie A"></option>
+          </datalist>
+          <br />
+          <label for="pilkarz">Ulubiony piłkarz:</label>
+          <br />
+          <input type="text" id="pilkarz" name="pilkarz" />
+          <br />
+          <label for="email">E-mail:</label>
+          <br />
+          <input type="text" id="email" name="email" />
+
+          <br />
+
+          <label for="wojewodztwa">Województwo:</label><br />
+          <input list="wojewodztwa" />
+
+          <datalist id="wojewodztwa">
+            <option value="dolnośląskie"></option>
+            <option value="kujawsko-pomorskie"></option>
+            <option value="lubelskie"></option>
+            <option value="lubuskie"></option>
+            <option value="łódzkie"></option>
+            <option value="małopolskie"></option>
+            <option value="mazowieckie"></option>
+            <option value="opolskie"></option>
+            <option value="podkarpackie"></option>
+            <option value="podlaskie"></option>
+            <option value="pomorskie"></option>
+            <option value="śląskie"></option>
+            <option value="świętokrzyskie"></option>
+            <option value="warmińsko-mazurskie"></option>
+            <option value="wielkopolskie"></option>
+            <option value="zachodniopomorskie"></option>
+          </datalist>
+          <br />
+          <input type="submit" />
+          <input type="reset" />
+        </form>
+      </article>
+      <footer>Igor Maliszkiewicz</footer>
+    </div>
+  </body>
 </html>
