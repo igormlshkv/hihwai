@@ -131,7 +131,6 @@ sessionStorage.setItem("clicks",0);
   document.addEventListener("click", countClicks);
   function countClicks(){
   let num=Number(sessionStorage.getItem("clicks"));
-  console.log(num);
   num++;
   sessionStorage.setItem("clicks",num);
 }
@@ -160,4 +159,33 @@ $( function() {
     state = !state;
   });
 } );
+
+var fontState=localStorage.getItem("fontState");
+if(fontState=="bigger"){
+  biggerFontsize();
+}
+
+function initialFontsize(){
+    var artykul = document.querySelectorAll("p");
+    for(var i=0;i<artykul.length;i++){
+      artykul[i].style.fontSize="initial";
+      localStorage.setItem("fontState","initial");
+    }
+    
+}
+function biggerFontsize(){
+  var artykul = document.querySelectorAll("p");
+  for(var i=0;i<artykul.length;i++){
+    artykul[i].style.fontSize="200%";
+    localStorage.setItem("fontState","bigger");
+  }
+}
+function fontToggle(){
+  if(localStorage.getItem("fontState")=="initial"){
+    biggerFontsize();
+  }
+  else{
+    initialFontsize();
+  }
+}
 

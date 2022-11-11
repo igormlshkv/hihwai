@@ -23,7 +23,8 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" />
+          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
         </div>
       </header>
 
@@ -45,8 +46,13 @@
         </ul>
         <a href="vote.html">Ankieta</a>
       </nav>
-      <article class="article">
-        <form action="action.php" name="ankieta" method="GET">
+      <article class="article vote">
+        <form
+          autocomplete="off"
+          action="action.php"
+          name="ankieta"
+          method="POST"
+        >
           <label for="fname">Imię:</label><br />
           <input type="text" id="fname" name="fname" /><br />
 
@@ -63,7 +69,7 @@
 
           <label for="ligi">Ulubiona liga:</label><br />
 
-          <select id="ligi">
+          <select name="ligi" id="ligi">
             <option value="Bundesliga">Bundesliga</option>
             <option value="Ekstraklasa">Ekstraklasa</option>
             <option value="Premier League">Premier League</option>
@@ -84,7 +90,7 @@
 
           <label for="wojewodztwa">Województwo:</label><br />
 
-          <select id="wojewodztwa">
+          <select name="wojewodztwo" id="wojewodztwa">
             <option value="dolnośląskie">dolnośląskie</option>
             <option value="kujawsko-pomorskie">kujawsko-pomorskie</option>
             <option value="lubelskie">lubelskie</option>
