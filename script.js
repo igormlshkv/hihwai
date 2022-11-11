@@ -41,3 +41,123 @@ function loadArticle(articleName){
     iframe.setAttribute("style", "display: none");    
     article.appendChild(iframe); 
 }
+$(function() {
+  $("form[name='ankieta']").validate({
+  rules: {
+      fname:
+      {
+        required:true,
+        digits:false,
+      },
+      age: {
+      required:true,
+      digits:true
+      },
+      gender:"required",
+      pilkarz:"required",
+      email: {
+      required: true,
+      email: true,
+
+      }
+  },
+  messages: {
+      fname: "<br/>Wprowadź imię!<br/>",
+      age: "<br/>Wprowadź poprawny wiek!<br/>",
+      gender:"Wymagane!",
+      pilkarz:"<br/>Wprowadź piłkarza!<br/>",
+      email: {
+      email: "<br/>Niepoprawny email!<br/>",
+      required: "<br/>Wprowadź email!<br/>",
+      }
+  },
+  submitHandler: function(form) {
+      $( "#dialog" ).dialog();
+      setTimeout(() => {
+        form.submit()
+    }, 5000);
+
+  }
+  });
+});
+
+$( function() {
+  let pilkarze = [
+  "Cristiano Ronaldo",
+  "Lionel Messi",
+  "Neymar",
+  "Paulo Dybala",
+  "Robert Lewandowski",
+  "Kevin De Bruyne",
+  "Erling Haaland",
+  "Mohamed Salah",
+  "Eusebio",
+  "Gerd Muller",
+  "Franz Beckenbauer",
+  "Zinedine Zidane",
+  "Diego Maradona",
+  "Pele"
+  ];
+  $( "#pilkarz" ).autocomplete({
+    source: pilkarze
+  });
+} );
+
+
+
+$( function() {
+  let imiona = [
+  "Antoni",
+  "Jan",
+  "Aleksander",
+  "Franciszek",
+  "Nikodem",
+  "Jakub",
+  "Leon",
+  "Stanisław",
+  "Mikołaj",
+  "Szymon",
+  "Kacper",
+  "Maksymilian",
+  "Krystyna",
+  ];
+  $( "#fname" ).autocomplete({
+    source: imiona
+  });
+} );
+
+
+sessionStorage.setItem("clicks",0);
+  document.addEventListener("click", countClicks);
+  function countClicks(){
+  let num=Number(sessionStorage.getItem("clicks"));
+  console.log(num);
+  num++;
+  sessionStorage.setItem("clicks",num);
+}
+
+$( function() {
+  var state = false;
+  $( "#articleMenu" ).animate({
+    backgroundColor: "#aa0000",
+    color: "whitesmoke",
+    width: 500
+  }, 1000 );
+  $( "#button" ).on( "click", function() {
+    if ( state ) {
+      $( "#articleMenu" ).animate({
+        backgroundColor: "#aa0000",
+        color: "whitesmoke",
+        width: 500
+      }, 1000 );
+    } else {
+      $( "#articleMenu" ).animate({
+        backgroundColor: "hsl(74, 50%, 50%);",
+        color: "#000",
+        width: 240
+      }, 1000 );
+    }
+    state = !state;
+  });
+} );
+
