@@ -22,8 +22,13 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="fontToggle()" src="img/font.png" />
-          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" alt="" />
+          <img
+            id="img2"
+            onclick="DarkModeToggle()"
+            src="img/darkmode.png"
+            alt=""
+          />
         </div>
       </header>
       <nav>
@@ -44,7 +49,7 @@
         </ul>
         <a href="vote.html">Ankieta</a>
       </nav>
-      <article class="article">
+      <article class="article maradona">
         <div class="imgText">
           <img
             class="articleIMGLeft blueBoxShadow"
@@ -54,10 +59,13 @@
           <h1 class="blueText">Diego Armando Maradona</h1>
           <p>
             Diego Armando Maradona urodził się 30 października 1960 roku w Lanus
-            na przedmieściach Buenos Aires. W piłkę zaczął grać, gdy miał 9 lat.
-            Zapisał się wtedy do młodzieżowego zespołu Cebbolitates, który był
-            odłamem Argentinos Jrs. Dzięki swojemu talentowi został nazwany Pibe
-            de Oro (Złoty Chłopiec).
+            na przedmieściach
+            <a href="https://pl.wikipedia.org/wiki/Buenos_Aires_(prowincja)"
+              >Buenos Aires</a
+            >. W piłkę zaczął grać, gdy miał 9 lat. Zapisał się wtedy do
+            młodzieżowego zespołu Cebbolitates, który był odłamem Argentinos
+            Jrs. Dzięki swojemu talentowi został nazwany Pibe de Oro (Złoty
+            Chłopiec).
           </p>
           <p>
             Po sześciu latach gry w swoim klubie został przeniesiony do
@@ -255,7 +263,7 @@
           <video controls poster="img/maradonaposter.png">
             <source src="video/maradonagoal.mp4" type="video/mp4" />
           </video>
-          <script defer>
+          <script>
             document.querySelector("video").volume = 0.1;
           </script>
           <table class="articleTable blueTable">

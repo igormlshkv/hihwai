@@ -21,8 +21,13 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="fontToggle()" src="img/font.png" />
-          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" alt="" />
+          <img
+            id="img2"
+            onclick="DarkModeToggle()"
+            src="img/darkmode.png"
+            alt=""
+          />
         </div>
       </header>
       <nav>
@@ -43,7 +48,7 @@
         </ul>
         <a href="vote.html">Ankieta</a>
       </nav>
-      <article class="article">
+      <article class="article nazario">
         <div class="imgText">
           <img
             class="articleIMGLeft yellowBoxShadow"
@@ -54,8 +59,10 @@
           <p>
             Ronaldo, a właściwie Ronaldo Luís Nazário de Lima to piłkarz
             brazylijski, napastnik. Wielokrotny reprezentant kraju, najmłodszy w
-            historii zawodnik uhonorowany Złotą Piłką. Urodzony 18 września 1976
-            roku.
+            historii zawodnik uhonorowany
+            <a href="https://pl.wikipedia.org/wiki/Z%C5%82ota_Pi%C5%82ka"
+              >Złotą Piłką</a
+            >. Urodzony 18 września 1976 roku.
           </p>
           <p>
             Z piłką nożną związany był od dziecka, gdyż w Brazylii w piłkę gra
@@ -246,7 +253,7 @@
           <video controls poster="img/ronaldoposter.png">
             <source src="video/Ronaldo.mp4" type="video/mp4" />
           </video>
-          <script defer>
+          <script>
             document.querySelector("video").volume = 0.1;
           </script>
           <table class="articleTable yellowTable">

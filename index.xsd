@@ -1,0 +1,126 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+
+<xs:element name="hipertext" type="hipertextType"/>  
+
+<xs:complexType name="hipertextType">
+		<xs:sequence>
+			<xs:element name="author" type="authorType" ></xs:element>
+            <xs:element name="pilkarze" type="pilkarzeType" maxOccurs="unbounded"> </xs:element>
+            <xs:element name="artykuly" minOccurs="0" maxOccurs="1">
+                <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="artykul" maxOccurs="unbounded">
+                        <xs:complexType>
+                        <xs:sequence>
+                        <xs:element name="title" type="shortstringType"></xs:element>
+                        <xs:element name="content" type="xs:string" maxOccurs="unbounded"></xs:element>
+                    </xs:sequence>
+                     </xs:complexType>
+
+
+                    </xs:element>
+                    
+                 </xs:sequence>
+                </xs:complexType>
+            </xs:element>
+            
+
+
+           
+		</xs:sequence>
+	</xs:complexType>
+
+<xs:complexType name="authorType">
+		<xs:sequence>
+			<xs:element name="name" type="xs:string" />		
+			<xs:element name="lastname" type="xs:string" />
+		</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pilkarzeType">
+		<xs:sequence>
+            <xs:element name="pilkarz" type="pilkarzType" maxOccurs="unbounded"></xs:element>
+        </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="pilkarzType">
+    <xs:sequence>
+        <xs:element name="name" type="nameString" minOccurs="1" maxOccurs="1"></xs:element>
+        <xs:element name="birthday" type="xs:date" minOccurs="1" maxOccurs="1"></xs:element>
+        <xs:element name="death" type="xs:date" minOccurs="0" maxOccurs="1"></xs:element> 
+        <xs:element name="nationality" type="xs:string" minOccurs="1" maxOccurs="unbounded"></xs:element>
+        <xs:element name="description" type="xs:string" minOccurs="1"></xs:element>
+        <xs:element name="image" type="imgType" minOccurs="0"></xs:element>
+        <xs:element name="achievements" type="achievementsType" minOccurs="1" maxOccurs="1"></xs:element>
+
+    </xs:sequence>
+    <xs:attribute name="alive"></xs:attribute>
+    <xs:attribute name="retired"></xs:attribute>
+
+</xs:complexType>
+
+<xs:complexType name="imgType">
+    <xs:sequence>
+        <xs:element name="link">
+            <xs:complexType>
+                <xs:attribute name="source" type="xs:string"></xs:attribute>
+            </xs:complexType>            
+        </xs:element>
+        <xs:element name="imgdescription" type="xs:string"></xs:element>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="achievementsType">
+    <xs:sequence>
+        <xs:element name="achievement" maxOccurs="unbounded">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="name" type="xs:string"></xs:element>
+                    <xs:element name="date" type="xs:gYear" minOccurs="0" maxOccurs="unbounded"></xs:element>
+                </xs:sequence>
+            </xs:complexType>
+
+
+        </xs:element>
+    </xs:sequence>
+
+
+
+
+</xs:complexType>
+
+<xs:attribute name="alive">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"></xs:enumeration>
+            <xs:enumeration value="no"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:attribute>
+
+<xs:attribute name="retired">
+    <xs:simpleType>
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"></xs:enumeration>
+            <xs:enumeration value="no"></xs:enumeration>
+        </xs:restriction>
+    </xs:simpleType>
+</xs:attribute>
+
+<xs:simpleType name="nameString">
+    <xs:restriction base="xs:string">
+        <xs:minLength value="3"></xs:minLength>
+        <xs:maxLength value="30"></xs:maxLength>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="shortstringType">
+    <xs:restriction base="xs:string">
+        <xs:minLength value="1"></xs:minLength>
+        <xs:maxLength value="35"></xs:maxLength>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:attribute name="lang" type="xs:string" default="pl-PL"/>
+</xs:schema>

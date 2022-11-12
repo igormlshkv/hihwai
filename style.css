@@ -55,6 +55,8 @@ nav {
 }
 
 .article {
+    background-repeat: no-repeat;
+    background-position:right;
     overflow-x:hidden;
     overflow-y: auto;
     height:87%;
@@ -428,4 +430,37 @@ input[type=submit],input[type=reset]{
     padding:0.5vw;
     width:fit-content;
     height:fit-content;
+}
+.vote{
+    font-size:1.5vw;
+}
+.tresc{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:1vw
+}
+.tresc h1{
+    font-size:2vw;
+    text-align: center;
+    text-justify:center;
+    color:black;
+    text-shadow: -1px -1px 0 rgb(200, 173, 173), 1px -1px 0 rgb(200, 173, 173), -1px 1px 0 rgb(200, 173, 173), 1px 1px 0 rgb(200, 173, 173);
+}
+.maradona{
+    background-image:url("img/napolibg.png");
+    background-size:10vw 10vw;
+}
+.gaucho{
+    background-image:url("img/barcabg.png");
+    background-size:15vw 10vw;
+
+}
+.nazario{
+    background-image:url("img/madridbg.png");
+    background-size:10vw 10vw;
+
+}
+.zidane{
+    background-image:url("img/madridbg.png");
+    background-size:10vw 10vw;
+
 }

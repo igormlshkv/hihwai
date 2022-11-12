@@ -36,7 +36,7 @@ function loadArticle(articleName){
     let article = document.querySelector(".trescArtykulu"); 
     document.querySelector(".tresc")?.remove();    
     let iframe = document.createElement("iframe");     
-    iframe.setAttribute("src", `articles/${articleName}.html`);     
+    iframe.setAttribute("src", `/articles/${articleName}.html`);     
     iframe.setAttribute("onload", "this.insertAdjacentHTML('afterend', (this.contentDocument.body||this.contentDocument).innerHTML);this.remove()");    
     iframe.setAttribute("style", "display: none");    
     article.appendChild(iframe); 
@@ -47,13 +47,12 @@ $(function() {
       fname:
       {
         required:true,
-        digits:false,
+        text:true,
       },
       age: {
       required:true,
       digits:true
       },
-      gender:"required",
       pilkarz:"required",
       email: {
       required: true,
@@ -64,7 +63,6 @@ $(function() {
   messages: {
       fname: "<br/>Wprowadź imię!<br/>",
       age: "<br/>Wprowadź poprawny wiek!<br/>",
-      gender:"Wymagane!",
       pilkarz:"<br/>Wprowadź piłkarza!<br/>",
       email: {
       email: "<br/>Niepoprawny email!<br/>",
@@ -75,7 +73,7 @@ $(function() {
       $( "#dialog" ).dialog();
       setTimeout(() => {
         form.submit()
-    }, 5000);
+    }, 4000);
 
   }
   });
@@ -169,16 +167,18 @@ function initialFontsize(){
     var artykul = document.querySelectorAll("p");
     for(var i=0;i<artykul.length;i++){
       artykul[i].style.fontSize="initial";
-      localStorage.setItem("fontState","initial");
     }
+    // document.querySelector(".vote").style.fontSize="initial";
+    localStorage.setItem("fontState","initial");
     
 }
 function biggerFontsize(){
   var artykul = document.querySelectorAll("p");
   for(var i=0;i<artykul.length;i++){
     artykul[i].style.fontSize="200%";
-    localStorage.setItem("fontState","bigger");
   }
+  // document.querySelector(".vote").style.fontSize="200%";
+  localStorage.setItem("fontState","bigger");
 }
 function fontToggle(){
   if(localStorage.getItem("fontState")=="initial"){

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hipertext xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="index.xsd">
+
+    <author>
+        <name>Igor</name>
+        <lastname>Maliszkiewicz</lastname>
+    </author>
+
+
+    <pilkarze>
+        <pilkarz alive="no" retired="yes">
+            <name>Diego Armando Maradona</name>
+            <birthday>1960-10-30</birthday>
+            <death>2020-11-25</death>
+            <nationality>Argentyna</nationality>
+            <description>Diego Armando Maradona urodził się 30 października 1960 roku w Lanus na przedmieściach Buenos Aires. W piłkę zaczął grać, gdy miał 9 lat. Zapisał się wtedy do młodzieżowego zespołu Cebbolitates, który był odłamem Argentinos Jrs. Dzięki swojemu talentowi został nazwany Pibe de Oro (Złoty Chłopiec).
+                Po sześciu latach gry w swoim klubie został przeniesiony do podstawowego składu Argentinos Juniors. Cztery miesiące później Diego zagrał swój pierwszy mecz w kadrze narodowej U-16. W 1978 roku nie został powołany przez trenera pierwszej reprezentacji Argentyny - Manottiego - na mistrzostwa świata, gdyż trener uważał, że Maradona jest jeszcze zbyt młody. Zawiedziony, wziął się ostro za treningi, aby w końcu go dostrzeżono. W niedługim czasie okrzyknięto go następcą Pele. W 1981 roku trafił do jednego z najlepszych argentyńskich klubów - Boca Juniors, za sumę miliona funtów. W 1982 roku dostał szansę i pojechał na mistrzostwa świata w Hiszpanii. Na początku grał całkiem dobrze, strzelił 2 bramki. Kryzys przyszedł w meczach z Włochami i Brazylią, grał fatalnie, popełniał wiele błędów, w meczu z Canarinhos dostał czerwoną kartkę. Argentyna odpadła w drugiej rundzie turnieju.
+                W tym samym roku Diego Maradona przeszedł do FC Barcelony za sumę 3 milionów funtów, co jak na tamte czasu było absolutnym rekordem. Mimo, że nie grał za wiele, w pierwszym sezonie strzelił 26 bramek, zdobył z Blaugraną mistrzostwo Hiszpanii, Copa del Rey i Superpuchar Hiszpanii. Gdy trenerem Barçy został Menotti, Maradona grał dużo więcej i dużo skuteczniej. Był maszyną nie do zatrzymania. Niestety, w meczu z Athletic Bilbao, Diego złamał nogę, co wykluczyło go z gry na trzy miesiące.
+                Po wyleczeniu kontuzji postanowił opuścić klub i za sumę 7 milionów funtów trafił do Napoli. Wraz z Napoli zdobył w 1987 roku mistrzostwo i puchar kraju. Rok wcześniej na mistrzostwach świata, był czołową postacią reprezentacji Argentyny. Strzelił pięć bramek, z czego najbardziej znana to ta, strzelona ręką w meczy z Anglia. Kolejnym sukcesem w karierze Maradony było zdobycie z Napoli Pucharu UEFA w 1989 roku. Na mistrzostwach świata w 1990r. ponownie poprowadził Argentynę do finału, i ponownie zmierzył się z Niemcami. Ty razem Europejczycy okazali się zbyt trudnymi przeciwnikami. Po tej imprezie zaczęły się problemy Diego. Został on przyłapany na dopingu, za co został zdyskwalifikowany na 15 miesięcy.
+                W 1992 roku, opuścił Włochy i przeniósł się do Sevilli CF, gdzie grał niespełna rok. Później trafił do Newell's Old Boys, jednak przygoda z tym klubem zakończyła się szybciej niż z Sevillą.
+                "Jeśli rodzice nas szukali, wiedzieli, gdzie nas znaleźć. Zawsze tam się uganialiśmy za piłką. (…) Po prawej był pokój rodziców, po lewej – nie więcej niż dwa metry na dwa – pokój dzieci… Ośmiorga dzieci. Kiedy padał deszcz, trzeba było omijać miejsca, gdzie kapała woda, bo bardziej mogłeś zmoknąć w środku niż na zewnątrz. Dobra, nie chodzi o to, że nie mieliśmy łazienki – nie mieliśmy wody, ja zacząłem ją nosić w dwudziestolitrowych puszkach po oleju (…)."
+                Jego losy ściśle wpisują się w historię Argentyny. To postać tragiczna. Historia Argentyny to też wzloty i upadki. Diego od najmłodszych lat był symbolem, stał się celebrytą wbrew pochodzeniu, ubóstwu. Nie potrafił sobie z tym poradzić. A jego sława dawała nadzieję gorzej sytuowanym Argentyńczykom. Potrzebowali takiego idola, który inspiruje i jednocześnie ma rysy na wizerunku. Maradona podziwiał lewicowych przywódców, bo znał biedę. Podziw dla populistów w Ameryce Łacińskiej to swoiste wezwanie do zainteresowania się nizinami społecznymi. To część jego legendy.
+                Maradona był piłkarskim geniuszem, który na pewnym momencie kariery pobłądził. Z pewnością w historii futbolu nigdy nie było zawodnika, który przez tyle lat grał na tak wysokim poziomie i jednocześnie prowadził tak niesportowy tryb życia. Był uzależniony od kokainy. Jak sam później przyznał, w Neapolu „narkotyki były wszędzie, praktycznie podawano mi je na tacy”. Spektakularny upadek nastąpił 17 marca 1991 roku, kiedy po meczu Napoli-Bari w próbce moczu piłkarza wykryto obecność narkotyku. To był ostatni mecz Argentyńczyka w błękitnej koszulce. Kara – 15 miesięcy zawieszenia. W tym samym roku trzydziestolatek został zatrzymany przez policję w rodzinnym mieście. Posiadał przy sobie znaczne ilości kokainy. Mimo że uniknął więzienia, jego życie nigdy już nie wróciło na właściwe tory.
+            </description>
+            <image>
+                <link source="img/maradona.png"></link>
+                <imgdescription>Zdjęcie Diego Maradony</imgdescription>
+            </image>
+            <achievements>
+                <achievement>
+                    <name>Mistrz</name>
+                    <date>1986</date>
+            </achievement>
+                <achievement>
+                    <name>Wicemistrz Świata</name>
+                    <date>1990 </date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo Argentyny</name>
+                    <date>1981</date>
+                </achievement>
+                <achievement>
+                    <name>Puchar Króla, Puchar Ligi Hiszpańskiej i Super Puchar Hiszpanii</name>
+                    <date>1983</date>
+                </achievement>
+                <achievement><name>Mistrzostwo Włoch</name>
+                    <date>1987</date>
+                    <date>1990</date>
+                 </achievement>
+                <achievement>
+                    <name>Zdobywca Pucharu UEFA</name>
+                    <date>1989</date>
+                </achievement>
+                <achievement>
+                    <name>Król strzelców Ligi Argentyńskiej</name>
+                    <date>1979</date>
+                    <date>1980</date>
+                    <date>1981</date> 
+                </achievement>
+                <achievement>
+                    <name>Król strzelców Serii A</name>
+                    <date>1988</date> 
+                </achievement>
+                <achievement>
+                    <name>Najlepszy Piłkarz Świata według World Soccer Magazine</name>
+                <date>1986</date>
+                </achievement>
+                <achievement>
+                    <name>Złota Piłka France Football za całokształt</name>
+                </achievement>
+                <achievement>
+                    <name>Złota Piłka dla najlepszego piłkarza MŚ</name>
+                    <date>1986</date>
+                </achievement>
+                <achievement>
+                    <name>Najlepszy piłkarz wszech czasów według głosowania internautów zorganizowanym przez FIFA</name>
+                </achievement>
+                <achievement>
+                    <name>5-krotnie wybierany najlepszych piłkarzem Argentyny i Ameryki Południowej</name>
+                </achievement>
+            </achievements>
+
+        </pilkarz>
+
+
+
+
+
+
+        <pilkarz alive="yes" retired="yes">
+            <name>Ronaldo de Asiss Moreira</name>
+            <birthday>1980-03-21</birthday>
+            <nationality>Brazylia</nationality>
+            <description>
+                Ronaldo de Asiss Moreira przyszedł na świat 21 marca 1980 roku w Porto Alegre. Swoją przygodę z piłką rozpoczął już w wieku 6 lat grając w lokalnym klubie. Wychowywał się w Porto Alegre wraz ze swoją matką, bratem i ojcem Joao, którego 'El Crack Total' nie pamięta dobrze, ponieważ gdy miał 12 lat, tata utopił się... w basenie. Od tego czasu "Mały Ronaldo" przywiązał się do matki Miqueliny, natomiast głową rodziny stał się starszy brat Roberto.
+                Gdy Ronaldinho skończył 17 lat podpisał profesjonalny kontrakt z Gremio. W debiutanckim sezonie zagrał w 47 meczach strzelając 7 bramek, ale to był dopiero początek. Rok później zaliczył już 22 trafienia, a w 2000 roku w 43 spotkaniach aż 39 razy wpisywał się na listę strzelców. Do osiągnięć tego okresu należą mistrzostwo i puchar stanu Rio Grande do Sul.
+                Młody Brazylijczyk swój pierwszy sukces odniósł na Mistrzostwach Świata U-17 w Egipcie. Turniej był dla niego szalenie udany, ponieważ poprowadził "Kanarków" do zwycięstwa w turnieju, a sam został królem strzelców. Po całym zdarzeniu oczywiście jego wybrano najlepszym zawodnikiem imprezy. 
+                Dwa lata po MŚ "siedemnastek" nadszedł czas na debiut w seniorskiej ekipie Brazylii. Roni został powołany na towarzyski mecz z Łotwą (3-0). W meczu z Łotyszami zaprezentował dobry futbol, co zaowocowało powołaniem go przez selekcjonera Wanderley'a Luxemburga na Copa America w Paragwaju. "El Crack Total" zagrał w 4 spotkaniach strzelając przepiękną bramkę Wenezuelczykom. Do końca tamtego roku Gaucho rozegrał 20 spotkań w żółtym trykocie i strzelił 8 goli.
+                'Ronnie' był liderem PSG, a w 2002 roku otrzymał powołanie na Mistrzostwa Świata w Korei i Japonii. Wraz z Rivaldo, Cafu i Ronaldo w składzie poprowadził Brazylię do kolejnego trofeum wygrywając turniej! Dzięki jego bajecznej technice łatwo strzelał przepiękne bramki, taki jak np. Davidowi Seamanowi. Brazylijczyk uderzył wtedy piłkę dokładnie z 35 metrów i futbolówka wpadła "za kołnierz" angielskiego golkipera. Już wtedy Brazylijczykiem poważnie zaczęły się interesować możni europejskiej piłki, ten zdecydował się jednak pozostać na Parc des Princes. 
+                Rok później nie było już jednak odwrotu. Z miejsca do ataku ruszyli działacze Manchesteru United, którzy dramatycznie poszukiwali następcy Beckhama, nowego nabytku Realu Madryt. Chętnych było wielu, ale na placu boju pozostały tylko "Czerwone Diabły" i Barcelona i kiedy było już praktycznie pewne, że 'Ronnie' wyjedzie do Anglii, nastąpił nieoczekiwany zwrot akcji i trzy dni później Brazylijczyk był już piłkarzem ”Dumy Katalonii”. Z Barceloną, grając fenomenalny futbol, osiągnął wszystko co najważniejsze. Dwukrotnie sięgał po mistrzowski tytuł La Liga, walnie przyczynił się także do zdobycia drugiego w historii Klubu Pucharu Mistrzów.
+                Ma dwójkę rodzeństwa siostrę Deisi i brata Roberto Assisa, który był zawdowym piłkarzem. Sąd w Brazylii skazał go i jego brata na zapłatę grzywny w wysokości 8,5 mln reali brazylijskich za budowę nielegalnej platformy rybackiej na rzece Guaiba w 2015 roku. W 2009 roku zajął 3. miejsce w rankingu magazynu "Forbes", przedstawiającego najlepiej zarabiających piłkarzy na świecie.
+                Ma syna (Joao ur. 25.02.2005 r.) ze związku z brazylijską tancerką Janaíną Nattielle Vianą Mendes. 
+                Ronaldinho pod koniec 2006 roku otworzył w Sao Paulo "Instytut Ronaldinho", w którym dzieci z ubogich rodzin mogą doskonalić swoje umiejętności piłkarskie.
+            </description>
+            <image>
+                <link source="img/ronaldinho.png"></link>
+                <imgdescription>Zdjęcie Ronaldinho</imgdescription>
+            </image>
+            <achievements>
+                <achievement>
+                    <name>Mistrzostwo Świata U-17 z Reprezentacją Brazylii</name>
+                    <date>1997</date>
+            </achievement>
+                <achievement>
+                    <name>Mistrzostwo Ameryki Południowej z Reprezentacją Brazylii</name>
+                    <date>1999</date>
+                </achievement>
+                <achievement>
+                    <name>Puchar Intertoto z Paris Saint-Germain</name>
+                    <date>2001</date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo Świata z Reprezentacją Brazylii</name>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo i Superpuchar Hiszpanii z FC Barceloną, Puchar Konfederacji z Reprezentacją Brazylii</name>
+                    <date>2005</date>
+                 </achievement>
+                <achievement>
+                    <name>Zwycięstwo w Lidze Mistrzów oraz Mistrzostwo i Superpuchar Hiszpanii z FC Barceloną</name>
+                    <date>2006</date>
+                </achievement>
+                <achievement>
+                    <name>Brązowy medal Igrzysk Olimpijskich w Pekinie z Reprezentacją Brazylii</name>
+                    <date>2008</date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo Włoch z Milanem</name>
+                    <date>2011</date> 
+                </achievement>
+                <achievement>
+                    <name>Zwycięstwo w Copa Libertadores z Atletico Mineiro</name>
+                    <date>2013</date>
+                </achievement>
+                <achievement>
+                    <name>Superpuchar Ameryki Południowej z Atletico Mineiro</name>
+                    <date>2014</date>
+                </achievement>
+            </achievements>
+
+        </pilkarz>
+
+
+
+        <pilkarz alive="yes" retired="yes">
+            <name>Ronaldo Luís Nazário de Lima</name>
+            <birthday>1976-09-18</birthday>
+            <nationality>Brazylia</nationality>
+            <description>
+                Ronaldo, a właściwie Ronaldo Luís Nazário de Lima to piłkarz brazylijski, napastnik. Wielokrotny reprezentant kraju, najmłodszy w historii zawodnik uhonorowany Złotą Piłką. Urodzony 18 września 1976 roku.
+                Z piłką nożną związany był od dziecka, gdyż w Brazylii w piłkę gra się nawet na ulicy. Podobnie jak jego idol, Pele, Ronaldo również w latach młodzieńczych uprawiał futsal. Jako nastolatek grał w miejscowym klubie Sao Cristovao, gdzie mając 15 lat grał w zespołach do lat 17 i 20. Klubem, w którym Ronaldo rozpoczął profesjonalną karierę, było Cruzeiro EC. Debiut na zawodowym szczeblu rozgrywek miał miejsce 7 września 1993 roku.
+                Bramkostrzelność Ronaldo przełożyła się na powołanie go na mistrzostwa świata w 1994 roku (debiut w reprezentacji zaliczył 23 marca). Łącznie, jako zawodnik Cruzeiro, Ronaldo zagrał w 46 oficjalnych spotkań, w których zdobył 44 bramki. Po zakończeniu mistrzostw świata w USA, Ronaldo przeszedł do PSV Eindhoven i już w pierwszym sezonie zdobył koronę króla strzelców ligi. Gra w PSV dała mu także debiut w europejskich pucharach. Przez dwa sezony rozegrane w PSV, Ronaldo wystąpił w 57 meczach, w których zdobył 54 bramki. W sezonie 1996/1997 natomiast, Brazylijczyk występował w barwach Barcelony, w której osiągnął życiową formę. FIFA uznała go najlepszym piłkarzem i zajął drugie miejsce w wyścigu o Złotą Piłkę. W jednym sezonie zdołał trafić do siatki 47 razy, w 49 występach.
+                W kolejnym sezonie miał miejsce transfer Ronaldo do Interu Mediolan. Grając w Serie A podtrzymał doskonałą formę, którą prezentował w Barcelonie. W 1997 roku otrzymał Złotą Piłkę i ponownie został uznany piłkarzem roku wg FIFA. Także rok później bywał w czołówkach plebiscytów. Ogólnie lata 1996-1998 uważa się za najwybitniejszy czas Ronaldo w jego karierze. Łącznie, grając w Interze, zagrał 99 meczów i strzelił 59 bramek. W kolejnych latach trapiły go kontuzje – zmagał się z zerwaniem więzadeł krzyżowych w kolanie. Uraz udało mu się wyleczyć chwilę przed Mistrzostwami Świata w 2002 roku, na które pojechał i zdobył z drużyną złoto.
+                Po mundialu zawodnik przeszedł do Realu Madryt, w którym pierwszy występ zaliczył z powodu kontuzji dopiero 6 października. W Realu pozostał do stycznia 2007 roku. Do tego czasu zdołał rozegrać 177 meczów i strzelić 104 gole.
+                30 stycznia 2007 roku przeszedł do włoskiego Milanu, w którym dręczony kontuzjami rozegrał przez dwa sezony tylko 20 meczów. Będąc świadom zmierzchu kariery, na ostatnie lata czynnego grania w piłkę powrócił do Brazylii, by grać w Corinthians Sao Paulo. 14 lutego 2011 roku ogłosił, że kończy sportową karierę.
+                14 lutego 2011 roku ogłosił zakończenie kariery piłkarskiej. Po tym Ronaldo założył własną agencję zarządzającą wizerunkiem gwiazd sportu. Jego pierwszym klientem był Neymar.
+                Ronaldy miał skłonność do zabawowego stylu życia. Kiedy w 2010 roku potwierdziła się informacja o tym, że Ronaldo jest ojcem chłopczyka, którego urodziła kelnerka, piłkarz przeszedł wazektomię.
+                Ronaldo dość często krytykuje współczesne gwiazdy piłki nożnej. Nie szczędził słów krytyki pod adresem nawet Cristiano Ronaldo i Neymara. W 2017 roku powiedział, że nie zna piłkarza, który by mógł mu dorównać.
+            </description>
+            <image>
+                <link source="img/ronaldonazario.png"></link>
+                <imgdescription>Zdjęcie Ronaldo Nazario</imgdescription>
+            </image>
+            <achievements>
+                <achievement>
+                    <name>Mistrz Świata</name>
+                    <date>1994</date>
+                    <date>2002</date>
+            </achievement>
+                <achievement>
+                    <name>Wicemistrz Świata</name>
+                    <date>1998</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny zwycięzca Copa America (Mistrzostwo Ameryki Płd.)</name>
+                    <date>1997</date>
+                    <date>1999</date>
+                </achievement>
+                <achievement>
+                    <name>3-krotny Najlepszy Piłkarz FIFA</name>
+                    <date>1996</date>
+                    <date>1997</date>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>3-krotny Najlepszy Piłkarz Świata według World Soccer</name>
+                    <date>1996</date>
+                    <date>1997</date>
+                    <date>2002</date>
+                 </achievement>
+                <achievement>
+                    <name>Król strzelców MŚ</name>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny Mistrz Hiszpanii (Real Madryt)</name>
+                    <date>2003</date>
+                    <date>2007</date>
+                </achievement>
+                <achievement>
+                    <name>Najlepszy strzelec MŚ w historii: 15 goli na trzech MŚ</name>
+                </achievement>
+                <achievement>
+                    <name>Zdobywca 62 goli w 97 meczach dla reprezentacji Brazylii</name>
+                </achievement>
+                <achievement>
+                    <name>Złoty But dla najlepszego strzelca w Europie</name>
+                    <date>1997</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny Król strzelców Ligi Hiszpańskiej</name>
+                    <date>1997</date>
+                    <date>2004</date>
+                </achievement>
+                <achievement>
+                    <name>Ogółem zdobywca 309 goli w 440 meczach seniorskich</name>
+                </achievement>
+            </achievements>
+
+        </pilkarz>
+
+
+
+        <pilkarz alive="yes" retired="yes">
+            <name>Ronaldo Luís Nazário de Lima</name>
+            <birthday>1976-09-18</birthday>
+            <nationality>Brazylia</nationality>
+            <description>
+                Ronaldo, a właściwie Ronaldo Luís Nazário de Lima to piłkarz brazylijski, napastnik. Wielokrotny reprezentant kraju, najmłodszy w historii zawodnik uhonorowany Złotą Piłką. Urodzony 18 września 1976 roku.
+                Z piłką nożną związany był od dziecka, gdyż w Brazylii w piłkę gra się nawet na ulicy. Podobnie jak jego idol, Pele, Ronaldo również w latach młodzieńczych uprawiał futsal. Jako nastolatek grał w miejscowym klubie Sao Cristovao, gdzie mając 15 lat grał w zespołach do lat 17 i 20. Klubem, w którym Ronaldo rozpoczął profesjonalną karierę, było Cruzeiro EC. Debiut na zawodowym szczeblu rozgrywek miał miejsce 7 września 1993 roku.
+                Bramkostrzelność Ronaldo przełożyła się na powołanie go na mistrzostwa świata w 1994 roku (debiut w reprezentacji zaliczył 23 marca). Łącznie, jako zawodnik Cruzeiro, Ronaldo zagrał w 46 oficjalnych spotkań, w których zdobył 44 bramki. Po zakończeniu mistrzostw świata w USA, Ronaldo przeszedł do PSV Eindhoven i już w pierwszym sezonie zdobył koronę króla strzelców ligi. Gra w PSV dała mu także debiut w europejskich pucharach. Przez dwa sezony rozegrane w PSV, Ronaldo wystąpił w 57 meczach, w których zdobył 54 bramki. W sezonie 1996/1997 natomiast, Brazylijczyk występował w barwach Barcelony, w której osiągnął życiową formę. FIFA uznała go najlepszym piłkarzem i zajął drugie miejsce w wyścigu o Złotą Piłkę. W jednym sezonie zdołał trafić do siatki 47 razy, w 49 występach.
+                W kolejnym sezonie miał miejsce transfer Ronaldo do Interu Mediolan. Grając w Serie A podtrzymał doskonałą formę, którą prezentował w Barcelonie. W 1997 roku otrzymał Złotą Piłkę i ponownie został uznany piłkarzem roku wg FIFA. Także rok później bywał w czołówkach plebiscytów. Ogólnie lata 1996-1998 uważa się za najwybitniejszy czas Ronaldo w jego karierze. Łącznie, grając w Interze, zagrał 99 meczów i strzelił 59 bramek. W kolejnych latach trapiły go kontuzje – zmagał się z zerwaniem więzadeł krzyżowych w kolanie. Uraz udało mu się wyleczyć chwilę przed Mistrzostwami Świata w 2002 roku, na które pojechał i zdobył z drużyną złoto.
+                Po mundialu zawodnik przeszedł do Realu Madryt, w którym pierwszy występ zaliczył z powodu kontuzji dopiero 6 października. W Realu pozostał do stycznia 2007 roku. Do tego czasu zdołał rozegrać 177 meczów i strzelić 104 gole.
+                30 stycznia 2007 roku przeszedł do włoskiego Milanu, w którym dręczony kontuzjami rozegrał przez dwa sezony tylko 20 meczów. Będąc świadom zmierzchu kariery, na ostatnie lata czynnego grania w piłkę powrócił do Brazylii, by grać w Corinthians Sao Paulo. 14 lutego 2011 roku ogłosił, że kończy sportową karierę.
+                14 lutego 2011 roku ogłosił zakończenie kariery piłkarskiej. Po tym Ronaldo założył własną agencję zarządzającą wizerunkiem gwiazd sportu. Jego pierwszym klientem był Neymar.
+                Ronaldy miał skłonność do zabawowego stylu życia. Kiedy w 2010 roku potwierdziła się informacja o tym, że Ronaldo jest ojcem chłopczyka, którego urodziła kelnerka, piłkarz przeszedł wazektomię.
+                Ronaldo dość często krytykuje współczesne gwiazdy piłki nożnej. Nie szczędził słów krytyki pod adresem nawet Cristiano Ronaldo i Neymara. W 2017 roku powiedział, że nie zna piłkarza, który by mógł mu dorównać.
+            </description>
+            <image>
+                <link source="img/ronaldonazario.png"></link>
+                <imgdescription>Zdjęcie Ronaldo Nazario</imgdescription>
+            </image>
+            <achievements>
+                <achievement>
+                    <name>Mistrz Świata</name>
+                    <date>1994</date>
+                    <date>2002</date>
+            </achievement>
+                <achievement>
+                    <name>Wicemistrz Świata</name>
+                    <date>1998</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny zwycięzca Copa America (Mistrzostwo Ameryki Płd.)</name>
+                    <date>1997</date>
+                    <date>1999</date>
+                </achievement>
+                <achievement>
+                    <name>3-krotny Najlepszy Piłkarz FIFA</name>
+                    <date>1996</date>
+                    <date>1997</date>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>3-krotny Najlepszy Piłkarz Świata według World Soccer</name>
+                    <date>1996</date>
+                    <date>1997</date>
+                    <date>2002</date>
+                 </achievement>
+                <achievement>
+                    <name>Król strzelców MŚ</name>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny Mistrz Hiszpanii (Real Madryt)</name>
+                    <date>2003</date>
+                    <date>2007</date>
+                </achievement>
+                <achievement>
+                    <name>Najlepszy strzelec MŚ w historii: 15 goli na trzech MŚ</name>
+                </achievement>
+                <achievement>
+                    <name>Zdobywca 62 goli w 97 meczach dla reprezentacji Brazylii</name>
+                </achievement>
+                <achievement>
+                    <name>Złoty But dla najlepszego strzelca w Europie</name>
+                    <date>1997</date>
+                </achievement>
+                <achievement>
+                    <name>2-krotny Król strzelców Ligi Hiszpańskiej</name>
+                    <date>1997</date>
+                    <date>2004</date>
+                </achievement>
+                <achievement>
+                    <name>Ogółem zdobywca 309 goli w 440 meczach seniorskich</name>
+                </achievement>
+            </achievements>
+
+        </pilkarz>
+
+
+
+        <pilkarz alive="yes" retired="yes">
+            <name>Zinédine Yazid Zidane</name>
+            <birthday>1972-06-23</birthday>
+            <nationality>Francja</nationality>
+            <nationality>Algeria</nationality>
+            <description>
+                Biografia Zinédine Zidana zaczęła się, gdy jego rodzice – algierscy emigranci – przybyli do Francji w 1953 roku. Rodzice początkowo mieszkali w Paryżu, ale kilka lat później przenieśli się do jednej z najbiedniejszych dzielnic Marsylii. Piłkarz urodził się 23 czerwca 1972 roku i jest najmłodszy w rodzinie. Ma czworo starszego rodzeństwa: trzech braci i siostrę. Już jako dziecko interesował się piłką nożną oraz ćwiczył judo. Zidane był z pochodzenia Kabylem i przez całe lata młodzieńcze zachowywał się agresywnie, gdy tylko ktoś robił mu przykrości z tego powodu.
+                Początki kariery klubowej Zinédine Zidane sięgają 1982 roku, w którym zasilił skład juniorski zespołu US Saint-Henri. Następnie trenował w klubie SO Septèmes-les-Vallons, gdzie grał do 14. roku życia.
+                Przełomem w karierze młodego piłkarza był nabór do ligi juniorów, gdy podczas treningu zauważył go łowca talentów Jean Varrauda, poszukujący uzdolnionych graczy dla AS Cannes. W wieku 16 lat Zinédine zadebiutował po raz pierwszy w kadrze seniorskiej (20 maja 1989 roku). Na pierwszą bramkę dla AS Cannes musiał poczekać jeszcze blisko 2 lata (8 luty 1991 roku). Za ten wyczyn otrzymał samochód, który zasponsorował mu prezes klubu. Sezon 1990/1991 Zidane zakończył występem w 28 meczach, grając w podstawowym składzie. Kolejny sezon 1991/92 we francuskiej Ligue 1 był bardziej udany: 5 bramek w 31 występach.
+                W 1992 roku Zinédine Zidane dołączył do zespołu Girondins Bordeaux i od pierwszego spotkania grał na pozycji pomocnika. Pierwszy sezon w nowej drużynie zakończył się strzeleniem 10 bramek w 35 spotkaniach. W 1995 roku w barwach Bordeaux sięgnął po puchar Intertoto, a rok później z drużyną awansował do finału Pucharu UEFA. W trakcie gry w barwach Bordeaux Zidane niejednokrotnie zadziwiał kibiców swoimi nieprzeciętnymi umiejętnościami.
+                W połowie 1996 roku Zizou dołączył do jednego z najlepszych w tym okresie zespołów świata – Juventusu Turyn. Włoska drużyna zapłaciła za niego 3.000.000 GBP. Po początkowych trudnościach, przede wszystkim fizycznych, strzelił swoją pierwszą bramkę w meczu z Interem Mediolan w październiku 1996 roku (mecz z wynikiem 2:0). Debiutancki sezon zakończyło zdobycie Pucharu Międzykontynentalnego oraz Superpucharu Europy. Ponadto Zidane ze swoją drużyną wywalczył Mistrzostwo Włoch (Scudetto po raz 24 w historii Juventusu). W sezonie 1996/97 „Stara Dama” dotarła do finału Ligi Mistrzów, gdzie ulega Borussi Dortmund (1:3, 0:2). Kolejny rok gry dla Juventusu przyniósł zawodnikowi jeszcze większe sukcesy. W 1997 roku wygrał Superpuchar Włoch, zdobył 7 bramek w 32 meczach ligowych i znów dotarł do finału Ligi Mistrzów (1998, przegrana z Realem Madryt). Sezon 1998/99 nie należał do najlepszych w karierze Francuza – 2 bramki w sezonie ligowym, kontuzja i tylko 7. miejsce w tabeli.
+                Transfer do Realu Madryt nastąpił w lipcu 2001 roku. Królewscy zapłacili za piłkarza 76.000.000 EUR, co było w tym czasie absolutnym rekordem. Pomimo kłopotów z aklimatyzacją (tym razem związanych z presją ze strony hiszpańskich mediów), Zidane strzelił swoją pierwszą bramkę w barwach Madrytu 15 września 2001 roku, w spotkaniu przeciwko Realowi Betis.
+                W 2002 roku Zidane wraz z Królewskimi zdobył Superpuchar Europy oraz Puchar Interkontynentalny. Sezon 2002/2003 zakończył się również uzyskaniem Superpucharu Hiszpanii. Finalnie w tym sezonie rozgrywek piłkarz strzelił 9 bramek w 33 spotkaniach ligowych. Kolejny rok okazał się jednak bardzo słaby. Real odpadł w ćwierćfinale Ligi Mistrzów (przegrywając z AS Monaco) oraz stracił Puchar Króla w finale z Realem Saragossa. Ponadto sezon ligowy 2003/2004 skończył się dla Zinédine zaledwie 4. miejscem w lidze hiszpańskiej.
+                Podsumowując, wystąpił w 33 meczach i strzelił tylko 6 bramek. Rozgrywki prowadzone w 2004/2005 to kolejny etap bez większych sukcesów – 6 bramek w 29 meczach ligowych. Do początku 2006 roku sytuacja praktycznie nie ulegała zmianie, gdyż Królewscy nie odnosili większych sukcesów. Po krótkiej przerwie Zizou wrócił do najlepszej formy i w meczu przeciwko Sevilli FC zdobył hat-tricka.
+                Zinédine Zidane 108–krotnie reprezentował Francję, w których zdobył 31 bramek. W barwach trójkolorowych zdobył Mistrzostwo Świata 1998 roku oraz Mistrzostwo Europy 2000. Był laureatem plebiscytu Złota Piłka w 1998 roku. Wybrano go także najlepszym zawodnikiem Mistrzostw Świata 2006, w których był finalistą. Jest mistrzem rozgrywania akcji o bajecznej technice.
+                Po zakończeniu Mundialu w 2006 roku Zidane przeszedł na piłkarską emeryturę, która jednak nie trwała zbyt długo. W pierwszym roku przerwy odbył liczne podróże, m.in. odwiedził Algierię (swoją drugą ojczyznę), Bangladesz i Tajlandię. W 2008 roku „powrócił” i wziął udział w towarzyskim meczu z okazji 10-lecia uzyskania tytułu Mistrza Świata przez Francję. W 2009 roku uczestniczył w spotkaniu z Chinami. Coraz częściej angażował się również w akcje związane z promowaniem piłki nożnej, np. popierał starania Francji o organizację EURO 2016. 7 lipca 2011 roku objął stanowisko dyrektora sportowego Realu Madryt i rozpoczął nowy etap – trenerski.
+            </description>
+            <image>
+                <link source="img/zidane.png"></link>
+                <imgdescription>Zdjęcie Zinedine Zidane</imgdescription>
+            </image>
+            <achievements>
+                <achievement>
+                    <name>Piłkarz Roku FIFA</name>
+                    <date>1998</date>
+                    <date>2000</date>
+                    <date>2003</date>
+            </achievement>
+                <achievement>
+                    <name>Złota Piłka</name>
+                    <date>1998</date>
+                </achievement>
+                <achievement>
+                    <name>Najlepszy piłkarz Europy według El Pais</name>
+                    <date>1998</date>
+                    <date>2001</date>
+                    <date>2002</date>
+                    <date>2003</date>
+                </achievement>
+                <achievement>
+                    <name>Drużyna Roku UEFA</name>
+                    <date>2001</date>
+                    <date>2002</date>
+                    <date>2003</date>
+                </achievement>
+                <achievement>
+                    <name>Najlepszy zawodnik mistrzostw świata (Złota piłka)</name>
+                    <date>2006</date>
+                 </achievement>
+                <achievement>
+                    <name>Mistrzostwo Hiszpanii</name>
+                    <date>2003</date>
+                </achievement>
+                <achievement>
+                    <name>Superpuchar Hiszpanii</name>
+                    <date>2001</date>
+                    <date>2003</date>
+                </achievement>
+                <achievement>
+                    <name>Liga Mistrzów UEFA</name>
+                    <date>2002</date>
+                </achievement>
+                <achievement>
+                    <name>Finał Pucharu Króla</name>
+                    <date>2002</date>
+                    <date>2004</date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo świata</name>
+                    <date>1998</date>
+                </achievement>
+                <achievement>
+                    <name>Mistrzostwo Europy</name>
+                    <date>2000</date>
+                </achievement>
+            </achievements>
+        </pilkarz>
+    </pilkarze>
+    <artykuly>
+        <artykul>
+            <title>Starożytne początki piłki nożnej</title>
+            <content>Chińska konkurencyjna gra cuju (蹴鞠) przypomina współczesną federację piłkarską (soccer), opisy pojawiają się w podręczniku wojskowym datowanym na II i III wiek p.n.e. Istniał w czasach dynastii Han i prawdopodobnie dynastii Qin, w drugim i trzecim wieku pne. Japońska wersja cuju to kemari (蹴鞠) i została opracowana w okresie Asuka. Wiadomo, że grano w nią na japońskim dworze cesarskim w Kioto od około 600 rne. W kemari kilka osób stoi w kręgu i kopie do siebie piłkę, starając się, aby piłka nie spadła na ziemię (podobnie jak Keep Uppie).</content>
+            <content>Wiadomo, że starożytni Grecy i Rzymianie grali w wiele gier w piłkę, z których niektóre wymagały użycia stóp. Uważa się, że rzymska gra harpastum została zaadaptowana z greckiej gry zespołowej znanej jako „ἐπίσκυρος” (Episkyros) lub „φαινίνδα” (phaininda), o której wspomina grecki dramaturg, Antyfanes ( 388-311 p.n.e.), a później wspominany przez chrześcijańskiego teologa Klemensa Aleksandryjskiego (ok. 150 – ok. 215 ne). Wydaje się, że te gry przypominały futbol rugby. Rzymski polityk Cyceron (106–43 pne) opisuje przypadek mężczyzny, który został zabity podczas golenia, gdy piłka została kopnięta w zakładzie fryzjerskim. Rzymskie gry w piłkę znały już piłkę wypełnioną powietrzem, follis. 
+            Episkyros jest uznawany przez FIFA za wczesną formę futbolu.</content>
+        </artykul>
+
+        <artykul>
+            <title>Nowożytny futbol</title>
+            <content>Nie wiadomo, czy popularne w późnym średniowieczu na Wyspach Brytyjskich gry piłkarskie dotarły z Celtami, Rzymianami, Duńczykami, czy Normanami, można jednak prześledzić ich niesłabnącą popularność od najstarszej notatki sporządzonej między 1174 a 1183 r. W średniowieczu w wielu miastach grano w różne odmiany futbolu ludowego (ang. mob football), jak Royal Shrovetide Football. Grano na ulicach miejskich, a celem było przemieszczenie piłki do wyznaczonego miejsca (najczęściej była to brama miejska). Sport ten nie miał spisanych reguł: cechował się dużą brutalnością, drużyny liczyły nawet po kilkuset zawodników, którzy w czasie gry dewastowali miasto. Z tych powodów sport ten był wielokrotnie zakazywany edyktami królewskimi, kościelnymi i miejskimi. Mimo to futbol ludowy nie tracił na popularności i rozprzestrzenił się na obszarze kolonii brytyjskich. Piłki wtedy często przenoszono w rękach, kopiąc je tylko sporadycznie, a robiono ze zwierzęcych pęcherzy wypełnianych np. słomą.</content>
+            <content>W XIX wieku Wielka Brytania była centrum rewolucji przemysłowej, co doprowadziło do znaczących zmian cywilizacyjnych. Piłką zaczęto grać na podmiejskich łąkach, doprowadzono do spisania pierwszych reguł. Prym wiodły szkoły publiczne, które uznały, że gry ruchowe mogą pozytywnie wpłynąć na rozwój i dyscyplinę młodzieży. Powstanie kolei sprawiło, że szkoły mogły dużo łatwiej rywalizować ze sobą. Problemem był jednak brak wspólnych zasad rywalizacji. Reguły – zazwyczaj nieliczne – ustalano tuż przed meczem. Najstarsze spisane zasady gry powstały w 1845 r. w szkole w mieście Rugby w środkowej Anglii, od którego wzięła się nazwa całej dyscypliny sportu. Apokryficzna historia przypisuje powstanie gry Williamowi Webbowi Ellisowi w 1823 r., upamiętnionemu m.in. w nazwie Pucharu Świata w rugby union.</content>
+        </artykul>
+
+        <artykul>
+            <title>Powstanie The Football Association</title>
+            <content>Kluczowe dla rozwoju piłki nożnej okazały się reguły spisane w Cambridge w 1848 r. i w Sheffield w 1857 r. Od tego momentu można mówić o stopniowym oddzielaniu się piłki nożnej od rugby. Wówczas narastał też konflikt między zwolennikami i przeciwnikami grania ręką. Reguły Cambridge, ograniczające możliwość trzymania piłki w ręku i faworyzujące jej kopanie, nie zostały szeroko przyjęte w Anglii, ale stały się podstawą dla pierwszych zasad The Football Association (FA) w 1863 r.</content>
+            <content>Konflikt dotyczący szarżowania i gry rękoma doprowadził do powołania w 1871 r. the Rugby Football Union (RFU). Drogi rugby i piłki nożnej się rozeszły. Północnoangielski Sheffield Football Club założony w 1857 r. spisał w tym samym roku własne reguły, które miały znacząco wpłynąć na rozwój piłki nożnej. Pierwotna piłka nożna przypominała bardziej rugby. Identyczna zasada spalonego uniemożliwiała grę do przodu, stąd pod bramkę rywala przemieszczano się albo dryblując, albo za pomocą młyna. Po odejściu klubów preferujących reguły rugby FA zaadaptowała liczne zasady z Sheffield, jak rzut wolny, rzut rożny, rzut z autu, czy poprzeczkę. Ostatecznie oba związki połączyły się w 1877 r. Na taktykę znacząco wpłynęli też Szkoci, rozwijając grę podaniami. W podobnym czasie w różnych regionach Imperium Brytyjskiego i Stanów Zjednoczonych spisano niezależnie lokalne reguły gry, często inspirując się rugby lub wczesną piłką nożną. W ten sposób narodziły się odmiany: amerykańska, australijska, irlandzka, kanadyjska.</content>
+        </artykul>
+
+        <artykul>
+            <title>Nowoczesna piłka nożna</title>
+            <content>Najstarsze na świecie zawody piłkarskie to FA Cup, założone przez piłkarza Charlesa W. Alcocka, a od 1872 r. rywalizują w nim angielskie drużyny. Pierwszy oficjalny międzynarodowy mecz piłki nożnej odbył się również w 1872 r. Glasgow, ponownie za namową Alcocka. Anglia jest także domem dla pierwszej na świecie ligi piłkarskiej, która została założona w Birmingham w 1888 roku przez reżysera Aston Villi Williama McGregora. Oryginalny format zawierał 12 klubów z Midlands i Północnej Anglii.</content>
+            <content>Przepisy Gry określa Zarząd Międzynarodowego Związku Piłki Nożnej (IFAB).Zarząd powstał w 1886 roku po spotkaniu w Manchesterze Związku Piłki Nożnej, Szkockiego Związku Piłki Nożnej, Walijskiego Związku Piłki Nożnej i Irlandzkiego Związku Piłki Nożnej. FIFA, międzynarodowa organizacja piłkarska, została utworzona w Paryżu w 1904 roku i zadeklarowała, że będzie przestrzegać Prawa Gry Związku Piłki Nożnej. Rosnąca popularność gry międzynarodowej doprowadziła do przyjęcia przedstawicieli FIFA do IFAB w 1913 roku. Zarząd składa się z czterech przedstawicieli FIFA i po jednym przedstawicielu z każdego z czterech brytyjskich stowarzyszeń.</content>
+            <content>Na całym świecie w piłkę nożną gra się na profesjonalnym poziomie. Miliony ludzi regularnie chodzą na stadiony piłkarskie, aby śledzić swoje ulubione drużyny, podczas gdy kolejne miliardy oglądają mecz w telewizji lub w Internecie. Bardzo duża liczba osób gra również w piłkę nożną na poziomie amatorskim. Według sondażu przeprowadzonego przez FIFA, opublikowanego w 2001 roku, ponad 240 milionów ludzi z ponad 200 krajów regularnie gra w piłkę nożną. Piłka nożna ma największą światową widownię telewizyjną w sporcie.</content>
+        </artykul>
+
+    </artykuly>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</hipertext>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Ankieta</title>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -23,8 +24,13 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="fontToggle()" src="img/font.png" />
-          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" alt="" />
+          <img
+            id="img2"
+            onclick="DarkModeToggle()"
+            src="img/darkmode.png"
+            alt=""
+          />
         </div>
       </header>
 
@@ -59,13 +65,13 @@
           <label for="age">Wiek:</label><br />
           <input type="text" id="age" name="age" /><br />
 
-          <label for="gender">Płeć:</label><br />
+          <label>Płeć:</label><br />
 
           <input type="radio" id="kobieta" name="gender" value="Kobieta" />
-          <label for="gender">Kobieta</label><br />
+          <label for="kobieta">Kobieta</label><br />
 
           <input type="radio" id="mezczyzna" name="gender" value="Mężczyzna" />
-          <label for="gender">Mężczyzna</label><br />
+          <label for="mezczyzna">Mężczyzna</label><br />
 
           <label for="ligi">Ulubiona liga:</label><br />
 

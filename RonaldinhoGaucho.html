@@ -21,8 +21,13 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="fontToggle()" src="img/font.png" />
-          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" alt="" />
+          <img
+            id="img2"
+            onclick="DarkModeToggle()"
+            src="img/darkmode.png"
+            alt=""
+          />
         </div>
       </header>
       <nav>
@@ -43,7 +48,7 @@
         </ul>
         <a href="vote.html">Ankieta</a>
       </nav>
-      <article class="article">
+      <article class="article gaucho">
         <div class="imgText">
           <img
             class="articleIMGLeft redBoxShadow"
@@ -53,12 +58,13 @@
           <h1 class="redText">Ronaldinho Gaucho</h1>
           <p>
             Ronaldo de Asiss Moreira przyszedł na świat 21 marca 1980 roku w
-            Porto Alegre. Swoją przygodę z piłką rozpoczął już w wieku 6 lat
-            grając w lokalnym klubie. Wychowywał się w Porto Alegre wraz ze
-            swoją matką, bratem i ojcem Joao, którego 'El Crack Total' nie
-            pamięta dobrze, ponieważ gdy miał 12 lat, tata utopił się... w
-            basenie. Od tego czasu "Mały Ronaldo" przywiązał się do matki
-            Miqueliny, natomiast głową rodziny stał się starszy brat Roberto.
+            <a href="https://pl.wikipedia.org/wiki/Porto_Alegre">Porto Alegre</a
+            >. Swoją przygodę z piłką rozpoczął już w wieku 6 lat grając w
+            lokalnym klubie. Wychowywał się w Porto Alegre wraz ze swoją matką,
+            bratem i ojcem Joao, którego 'El Crack Total' nie pamięta dobrze,
+            ponieważ gdy miał 12 lat, tata utopił się... w basenie. Od tego
+            czasu "Mały Ronaldo" przywiązał się do matki Miqueliny, natomiast
+            głową rodziny stał się starszy brat Roberto.
           </p>
           <p>
             Gdy Ronaldinho skończył 17 lat podpisał profesjonalny kontrakt z
@@ -238,7 +244,7 @@
         <div class="articleBilans2">
           <video controls poster="img/ronaldinhoposter.png">
             <source id="video1" src="video/ronaldinho.mp4" type="video/mp4" />
-            <script defer>
+            <script>
               document.querySelector("video").volume = 0.1;
             </script>
           </video>

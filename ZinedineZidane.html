@@ -22,8 +22,13 @@
       <header>
         <h1>Moje hobby - piłka nożna</h1>
         <div id="darkmodeMenu">
-          <img onclick="fontToggle()" src="img/font.png" />
-          <img id="img2" onclick="DarkModeToggle()" src="img/darkmode.png" />
+          <img onclick="fontToggle()" src="img/font.png" alt="" />
+          <img
+            id="img2"
+            onclick="DarkModeToggle()"
+            src="img/darkmode.png"
+            alt=""
+          />
         </div>
       </header>
       <nav>
@@ -44,7 +49,7 @@
         </ul>
         <a href="vote.html">Ankieta</a>
       </nav>
-      <article class="article">
+      <article class="article zidane">
         <div class="imgText">
           <img
             class="articleIMGLeft silverBoxShadow"
@@ -53,7 +58,8 @@
           />
           <h1 class="silverText">Zinédine Yazid Zidane</h1>
           <p>
-            Biografia Zinédine Zidana zaczęła się, gdy jego rodzice – algierscy
+            Biografia Zinédine Zidana zaczęła się, gdy jego rodzice –
+            <a href="https://pl.wikipedia.org/wiki/Algieria">algierscy</a>
             emigranci – przybyli do Francji w 1953 roku. Rodzice początkowo
             mieszkali w Paryżu, ale kilka lat później przenieśli się do jednej z
             najbiedniejszych dzielnic Marsylii. Piłkarz urodził się 23 czerwca
@@ -260,7 +266,7 @@
           <video controls poster="img/zidaneredcard.png">
             <source src="video/zidane-headbutt.mp4" type="video/mp4" />
           </video>
-          <script defer>
+          <script>
             document.querySelector("video").volume = 0.1;
           </script>
           <table class="articleTable silverTable">
